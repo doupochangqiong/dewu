@@ -2,6 +2,7 @@ name: Run JS on schedule
  
 on:
   schedule:
+    workflow_dispatch:
     - cron: '10 11 * * * *'
  
 jobs:
